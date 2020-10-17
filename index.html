@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+  <style>
+    body {
+      width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <fieldset>
+    <legend class="doc">Login page addresses</legend>
+    <div class="input-group fluid">
+      <label for="pageUrl-0">Local develop:</label>
+      <input id="pageUrl-0" type="text" placeholder="URL"/>
+    </div>
+    <div class="input-group fluid">
+      <label for="pageUrl-1">Develop:</label>
+      <input id="pageUrl-1" type="text" placeholder="URL"/>
+    </div>
+    <div class="input-group fluid">
+      <label for="pageUrl-2">Test:</label>
+      <input id="pageUrl-2" type="text" placeholder="URL"/>
+    </div>
+    <div class="input-group fluid">
+      <label for="pageUrl-3">Ref:</label>
+      <input id="pageUrl-3" type="text" placeholder="URL"/>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend class="doc">Login</legend>
+    <div class="input-group fluid">
+      <label for="login">Login:</label>
+      <input id="login" type="text" placeholder="Login"/>
+    </div>
+    <div class="input-group vertical">
+      <label for="password">Password:</label>
+      <input type="text" id="password" placeholder="Password"/>
+    </div>
+  </fieldset>
+  <fieldset>
+    <div class="input-group fluid">
+      <label for="deactivate">
+        Enable: <input id="deactivate" type="checkbox">
+      </label>
+    </div>
+    <button id="save">Save</button>
+  </fieldset>
+  <script src="main.js"></script>
+</body>
+</html>
