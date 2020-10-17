@@ -1,2 +1,2 @@
 # chrome-dev-auto-login
-Google Chrome extenstion for  auto login 
+Google Chrome extension for auto login
